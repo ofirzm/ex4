@@ -146,6 +146,7 @@ main {
 
 #goBtn {
   margin-top: 1rem !important;
+  position: relative;
 }
 
 .downBtn {
@@ -446,6 +447,7 @@ svg:hover {
     width: 100%;
     margin-left: 7px;
   }
+
   .leftFirstGrid-container {
     grid-template-rows: 667px 165px;
   }
@@ -506,10 +508,12 @@ svg:hover {
   .mobileLogo {
     display: block;
   }
+
   div#leftM,
   div#rightM {
     place-self: end;
   }
+
   .menu ul {
     margin-left: -2.5rem;
   }
