@@ -1,0 +1,526 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|RubikLight:400,500,700);
+
+@font-face {
+    font-family: NewfontBold;
+    src: url("fonts/NewfontBold.otf") format("opentype");
+}
+
+
+* {
+    box-sizing: border-box;
+    direction: ltr;
+    font-family: "Boing", "Rubik", sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* ------------------------ Header ----------------------- */
+
+.menu {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+
+div#leftM,
+div#rightM {
+    place-self: center;
+}
+
+#rightM {
+    margin-left: auto;
+}
+
+.logo {
+    background-image: url(img/ArtToGetLogo.png);
+    background-repeat: no-repeat;
+    height: 62px;
+    max-height: 62px;
+    max-width: 200px;
+    width: 200px;
+    background-size: contain;
+}
+
+.lang:focus {
+    color: #b1422d;
+}
+
+.lang:focus {
+    outline: none;
+}
+
+.lang:active {
+    color: #b1422d;
+}
+
+.loginBtn {
+    color: black;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 7px 25px 7px 25px;
+}
+
+.loginBtn:hover {
+    background-color: #b1422d;
+    color: white;
+}
+
+/* ------------------------------------------------------- */
+
+/*--------------------------List & link ---------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    margin: 7px;
+    display: inline;
+}
+
+a {
+    transition: color 0.2s ease-in-out;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #b1422d;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+/* ------------------------------------------------------- */
+
+/* ------------------------ Main & button----------------------- */
+main {
+    padding: 0px 20px 0px 20px;
+}
+
+.Header {
+    margin-bottom: 3px;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+}
+
+#goBtn {
+    margin-top: 1rem !important;
+}
+
+.downBtn {
+    margin-top: 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    white-space: nowrap;
+    padding: 8px 17px 8px 17px;
+}
+
+.downBtn span {
+    transition: color 0.2s ease-in-out;
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.downBtn span {
+    font-family: NewfontBold;
+    font-size: 25px;
+}
+
+.smallSpan {
+    font-size: 26px;
+}
+
+.logoDiv {
+    margin-bottom: 1rem;
+}
+
+.logoDiv span,
+.logoDiv {
+    font-size: 29px;
+    height: fit-content;
+    font-family: NewfontBold;
+    width: 100%;
+}
+
+.buttonDiv {
+    text-align: center;
+}
+
+/* ------------------------------------------------------- */
+
+
+
+/* ------------------------ Grid items----------------------- */
+
+#firstContainer {
+    display: flex;
+}
+
+.leftFirstGrid-container,
+.rightFirstGrid-container,
+.secondGrid-container {
+    display: grid;
+    padding: 10px;
+    grid-row-gap: 23px;
+}
+
+.leftFirstGrid-container {
+    grid-template-columns: 800px;
+    grid-template-rows: 370px 165px;
+}
+
+
+.grid-item {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.gridContent {
+    padding: 22px;
+}
+
+.Content {
+    max-width: 58%;
+    font-size: 22px;
+}
+
+#item1 {
+    background-color: #e1a291;
+    text-align: left;
+}
+
+#item1 .downBtn:hover span {
+    color: #e1a291;
+}
+
+#item1 .gridContent {
+    position: relative;
+}
+
+#item2 {
+    background-color: #f3d5b9;
+    background-image: url(img/item2Pic.png);
+    background-position-x: right;
+    background-position-y: 109px;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+#item2 .buttonDiv {
+    text-align: left;
+}
+
+#item2 .downBtn:hover span {
+    color: #f3d5b9;
+}
+
+#item2 .gridContent {
+    position: relative;
+}
+
+#item2 .Content {
+    max-width: 95%;
+}
+
+#item3 {
+    background-image: url(img/blueNew.jpg);
+    background-origin: border-box;
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#item4 {
+    height: 500px;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    background-image: url(img/portoPic.png);
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    background-repeat: round;
+}
+
+#item4 .Header {
+    color: #f3d5b9;
+}
+
+#item4 .gridContent {
+    margin: auto;
+}
+
+#item4 .downBtn:hover span {
+    color: #ad503c !important;
+    cursor: pointer !important;
+}
+
+#item5 {
+    background-color: #e4ad91;
+    background-size: 107px;
+    background-repeat: no-repeat;
+    background-position: left center, right center;
+    background-position-x: 20%, 80%;
+    background-image: url(img/picStat.png), url(img/picStat.png);
+}
+
+#item5 .downBtn:hover span {
+    color: #e4ad91;
+}
+
+
+#item5 .gridContent {
+    position: relative;
+}
+
+
+#item5 .Content {
+    max-width: 100%;
+}
+
+#item5 .logoDiv {
+    font-size: 40px;
+    color: #b1422d;
+}
+
+
+#item6 {
+    background-color: #5780c1;
+    background-size: 214px;
+    background-repeat: no-repeat;
+    background-position-y: 38px;
+    background-position-x: center;
+    background-image: url(img/ArtToGetLogo.png);
+    justify-self: center;
+    width: 30%;
+    text-align: -webkit-center;
+}
+
+#item6 .downBtn {
+    margin-top: 1rem !important;
+}
+
+#item6 .downBtn:hover span {
+    color: #5780c1;
+}
+
+#item6 .gridContent {
+    position: relative;
+}
+
+#item6 .Content {
+    max-width: 100%;
+}
+
+#item6 .Header {
+    margin-top: 4rem;
+}
+
+/* ------------------------------------------------------- */
+
+/* ---------------------footer area------------------------*/
+.footerGrid-container {
+    display: inline-grid;
+    grid-column-gap: 35px;
+    grid-template-areas:
+        "footerArea1 footerArea2 footerArea3 footerArea4";
+    padding: 10px;
+}
+
+.footerGrid-item {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    /* height: 200px; */
+    /* text-align: center; */
+}
+
+#footerItem1 {
+    grid-area: footerArea1;
+}
+
+
+#footerItem2 {
+    grid-area: footerArea2;
+}
+
+#footerItem3 {
+    grid-area: footerArea3;
+}
+
+footer {
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+footer li {
+    font-size: 20px;
+    display: flex;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.social {
+    align-self: center;
+    letter-spacing: 3px;
+}
+
+svg:hover {
+    color: #5780c1;
+}
+
+.social img {
+    max-width: 27px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social img:hover {
+    background-color: #5780c1;
+    cursor: pointer;
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+
+/* ------------------------------------------------------- */
+
+/* -----------------Responsive Handle--------------------- */
+@media only screen and (max-width: 480px) {
+    .footerGrid-container {
+        grid-template-areas:
+            "footerArea1"
+            "footerArea2"
+            "footerArea3";
+    }
+
+    .leftFirstGrid-container {
+        grid-template-rows: 667px 165px;
+    }
+
+    .secondGrid-container {
+        padding: 5px;
+    }
+
+    .grid-item {
+        padding: 0px;
+    }
+
+    #item4 {
+        background-repeat: no-repeat;
+        margin-top: -3rem;
+    }
+
+    #item5 {
+        background-size: 42px;
+        height: 279px;
+        background-position-y: bottom, bottom;
+        background-position-x: 1%, 99% !important;
+    }
+
+    #item6 {
+        background-position-y: 11px;
+    }
+
+    .loginBtn {
+        float: right;
+    }
+
+    .smallSpan {
+        font-size: 20px;
+    }
+
+    .Header {
+        font-size: 35px;
+    }
+
+    footer {
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    footer ul {
+        padding: 1;
+    }
+
+    .footerGrid-item {
+        padding: 0px;
+    }
+
+    .footerGrid-container {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #firstContainer {
+        display: block;
+    }
+
+    .leftFirstGrid-container {
+        grid-template-rows: auto 165px;
+        grid-template-columns: auto;
+    }
+
+    #item4 {
+        margin-top: -3rem;
+
+    }
+
+    #item5 {
+        background-position-x: 10%, 90%;
+    }
+
+    #item6 {
+        width: 100%;
+    }
+
+    #footerItem1 {
+        width: max-content;
+    }
+}
+
+/* ------------------------------------------------------- */
