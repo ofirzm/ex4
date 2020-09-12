@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: NewfontBold;
-    src: url("ex4/fonts/NewfontBold.otf") format("opentype");
+    src: url("/ex4/fonts/NewfontBold.otf") format("opentype");
 }
 
 
@@ -39,7 +39,7 @@ div#rightM {
 }
 
 .logo {
-    background-image: url(https://ofirzm.github.io/ex4/img/ArtToGetLogo.png);
+    background-image: url(/ex4/img/ArtToGetLogo.png);
     background-repeat: no-repeat;
     height: 62px;
     max-height: 62px;
@@ -238,7 +238,7 @@ button {
 
 #item2 {
     background-color: #f3d5b9;
-    background-image: url(ex4/img/item2Pic.png);
+    background-image: url(/ex4/img/item2Pic.png);
     background-position-x: right;
     background-position-y: 109px;
     background-size: 400px 400px;
@@ -263,7 +263,7 @@ button {
 }
 
 #item3 {
-    background-image: url(ex4/img/blueNew.jpg);
+    background-image: url(/ex4/img/blueNew.jpg);
     background-origin: border-box;
     background-position: center;
     background-clip: border-box;
@@ -275,7 +275,7 @@ button {
     height: 500px;
     margin-top: -2rem;
     margin-bottom: -2rem;
-    background-image: url(ex4/img/portoPic.png);
+    background-image: url(/ex4/img/portoPic.png);
     background-size: cover;
     display: flex;
     z-index: -1;
@@ -301,7 +301,7 @@ button {
     background-repeat: no-repeat;
     background-position: left center, right center;
     background-position-x: 20%, 80%;
-    background-image: url(ex4/img/picStat.png), url(ex4/img/picStat.png);
+    background-image: url(/ex4/img/picStat.png), url(ex4/img/picStat.png);
 }
 
 #item5 .downBtn:hover span {
@@ -330,7 +330,7 @@ button {
     background-repeat: no-repeat;
     background-position-y: 38px;
     background-position-x: center;
-    background-image: url(ex4/img/ArtToGetLogo.png);
+    background-image: url(/ex4/img/ArtToGetLogo.png);
     justify-self: center;
     width: 30%;
     text-align: -webkit-center;
