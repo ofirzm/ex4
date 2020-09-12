@@ -406,7 +406,7 @@ footer ul {
 
 .social {
     align-self: center;
-    letter-spacing: 3px;
+    letter-spacing: -1px;
 }
 
 svg:hover {
