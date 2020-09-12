@@ -5,7 +5,6 @@
     src: url("/ex4/fonts/NewfontBold.otf") format("opentype");
 }
 
-
 * {
     box-sizing: border-box;
     direction: ltr;
