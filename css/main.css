@@ -508,6 +508,9 @@ svg:hover {
   div#rightM {
     place-self: end;
   }
+  .menu ul {
+    margin-left: -2.5rem;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
