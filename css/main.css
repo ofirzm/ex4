@@ -300,7 +300,7 @@ button {
     background-repeat: no-repeat;
     background-position: left center, right center;
     background-position-x: 20%, 80%;
-    background-image: url(/ex4/img/picStat.png), url(ex4/img/picStat.png);
+    background-image: url(/ex4/img/picStat.png), url(/ex4/img/picStat.png);
 }
 
 #item5 .downBtn:hover span {
