@@ -50,6 +50,16 @@ div#rightM {
     background-size: contain;
 }
 
+.mobileLogo {
+    background-image: url(/ex4/img/mobileLogo.png);
+    background-repeat: no-repeat;
+    height: 62px;
+    max-height: 62px;
+    max-width: 200px;
+    width: 200px;
+    background-size: contain;
+}
+
 .lang:focus {
     color: #b1422d;
 }
