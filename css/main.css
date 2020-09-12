@@ -203,11 +203,16 @@ button {
   display: flex;
 }
 
+.leftFirstGrid-container {
+  grid-template-columns: 62em;
+}
+
 .leftFirstGrid-container,
 .rightFirstGrid-container,
 .secondGrid-container {
   display: grid;
   padding: 10px;
+  width: 100%;
   grid-row-gap: 23px;
 }
 
@@ -377,8 +382,6 @@ button {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
-  /* height: 200px; */
-  /* text-align: center; */
 }
 
 #footerItem1 {
@@ -545,5 +548,7 @@ svg:hover {
     width: max-content;
   }
 }
+
+
 
 /* ------------------------------------------------------- */
