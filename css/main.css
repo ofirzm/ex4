@@ -204,7 +204,7 @@ button {
 }
 
 .leftFirstGrid-container {
-  grid-template-columns: 62em;
+  grid-template-columns: 78rem;
 }
 
 .leftFirstGrid-container,
@@ -546,6 +546,12 @@ svg:hover {
 
   #footerItem1 {
     width: max-content;
+  }
+}
+
+@media only screen and(max-width:1440px) {
+  .leftFirstGrid-container {
+    grid-template-columns: 53rem;
   }
 }
 
