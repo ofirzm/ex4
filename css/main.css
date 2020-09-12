@@ -507,6 +507,10 @@ svg:hover {
         padding: 0px;
     }
 
+    .logo {
+        display: none;
+    }
+
     .mobileLogo {
         display: block;
     }
