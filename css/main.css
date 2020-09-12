@@ -504,6 +504,10 @@ svg:hover {
   .mobileLogo {
     display: block;
   }
+  div#leftM,
+  div#rightM {
+    place-self: end;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
