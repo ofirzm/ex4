@@ -547,7 +547,7 @@ svg:hover {
 
 @media only screen and(max-width:1440px) {
   .leftFirstGrid-container {
-    grid-template-columns: 53rem;
+    grid-template-columns: 59rem;
   }
 }
 
