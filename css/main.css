@@ -204,7 +204,7 @@ button {
 }
 
 .leftFirstGrid-container {
-  grid-template-columns: 78rem;
+  grid-template-columns: 65rem;
   grid-template-rows: 370px 165px;
 }
 
@@ -550,6 +550,5 @@ svg:hover {
     grid-template-columns: 59rem;
   }
 }
-
 
 /* ------------------------------------------------------- */
